@@ -1,0 +1,66 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Credentials
+.credentials
+*.key
+*.pem
+credentials.json
+config/credentials.json
+
+# Node modules
+node_modules/
+npm-debug.log
+npm-error.log
+yarn-error.log
+package-lock.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build files
+dist/
+build/
+
+# Config files with sensitive data
+config/config.json
+config/database.json
+
+# PHP session files
+session/
+
+# Miscellaneous
+.cache/
+.idea/
+*.iml
